@@ -16,30 +16,380 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <h1>flexbox backroads</h1>
+    <!-- <h1>flexbox backroads</h1> -->
     <!-- header  -->
+    <!-- navigation -->
+
+    <header class="home" id="home">
+      <!-- navigation bar -->
+      <nav class="navbar">
+        <div class="nav-center">
+          <!-- nav -->
+          <div class="nav-header">
+            <img src="./images/logo.svg" class="nav-logo" />
+
+            <button class="nav-toggle" id="nav-toggle">
+              <i class="fas fa-bars"></i>
+            </button>
+          </div>
+          <!-- end of nav header -->
+          <ul class="nav-links" id="nav-links">
+            <li>
+              <a href="#home" class="nav-link scroll-link">home</a>
+            </li>
+            <li>
+              <a href="#about" class="nav-link scroll-link"> about</a>
+            </li>
+            <li>
+              <a href="#services" class="nav-link scroll-link"> services</a>
+            </li>
+            <li>
+              <a href="#featured" class="nav-link scroll-link">featured</a>
+            </li>
+            <li>
+              <a href="#galary" class="nav-link scroll-link">galary</a>
+            </li>
+          </ul>
+          <!-- end of nav links -->
+          <!-- start of social icons -->
+          <ul class="nav-icons">
+            <li>
+              <a
+                href="https://www.facebook.com/"
+                class="nav-icon"
+                target="_blank"
+              >
+                <i class="fab fa-facebook-square"></i>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://twitter.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJsYW5nIjoiZW4ifQ%3D%3D%22%7D"
+                class="nav-icon"
+                target="_blank"
+                ><i class="fab fa-twitter"></i>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.instagram.com/accounts/login/"
+                class="nav-icon"
+                target="_blank"
+                ><i class="fab fa-instagram-square"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <!-- banner -->
+      <div class="banner">
+        <h1>continue exploring</h1>
+        <h4>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores saepe
+          unde ut quam, dignissimos ipsam?
+        </h4>
+        <button class="btn btn-home">explore tours</button>
+      </div>
+    </header>
+
     <!-- end of header  -->
 
     <!-- about section -->
+    <header class="about" id="about">
+      <h2>about <span>us</span></h2>
+      <img src="./images/about.jpeg" class="img-about" alt="" />
+      <h3>Explore the difference</h3>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab dolore ut
+        minima fugiat nemo ipsum dolor ea doloribus. Vel, perspiciatis!
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam sunt quasi
+        at aliquam ex nihil repudiandae voluptate inventore, suscipit sequi!
+      </p>
+      <button class="btn">read more</button>
+    </header>
     <!-- end of about section -->
 
     <!-- services -->
+    <header class="services" id="services">
+      <h2>our <span>services</span></h2>
+      <div class="allservices">
+        <div class="service-1">
+          <div class="icon-container">
+            <i class="fas fa-piggy-bank"></i>
+          </div>
+          <h3 class="service-tag">saving money</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis
+            voluptates nihil quos, explicabo qui sed.
+          </p>
+        </div>
+        <div class="service-2">
+          <div class="icon-container">
+            <i class="fas fa-tree"></i>
+          </div>
+          <h3 class="service-tag">endless hiking</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis
+            voluptates nihil quos, explicabo qui sed.
+          </p>
+        </div>
+        <div class="service-3">
+          <div class="icon-container">
+            <i class="fas fa-socks"></i>
+          </div>
+          <h3 class="service-tag">amazing comfort</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis
+            voluptates nihil quos, explicabo qui sed.
+          </p>
+        </div>
+      </div>
+    </header>
     <!--end services -->
 
     <!-- featured tours -->
+    <header class="featured-tours about" id="featured">
+      <h2>featured <span>tours</span></h2>
+      <div class="tours">
+        <div class="tour-1">
+          <img src="./images/tour-1.jpeg" class="img-about img-tours" alt="" />
+          <h4 class="tour-location">
+            Tibet adventure <span class="tour-days"> 6 days</span>
+          </h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore,
+            praesentium? Error dolor facere iste. Perferendis itaque tempore
+            excepturi perspiciatis voluptatum, odio provident fuga. Assumenda
+            atque ut ab veniam at dicta. Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Ab dolore ut minima fugiat nemo ipsum dolor ea
+            doloribus. Vel, perspiciatis!
+          </p>
+          <h4 class="tour-country">
+            <i class="fa-solid fa-flag">china</i>
+
+            <span> from $2100</span>
+          </h4>
+        </div>
+        <div class="tour-2">
+          <img src="./images/tour-2.jpeg" class="img-about img-tours" alt="" />
+          <h4 class="tour-location">
+            Thailand special <span class="tour-days"> 3 days</span>
+          </h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore,
+            praesentium? Error dolor facere iste. Perferendis itaque tempore
+            excepturi perspiciatis voluptatum, odio provident fuga. Assumenda
+            atque ut ab veniam at dicta. Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Ab dolore ut minima fugiat nemo ipsum dolor ea
+            doloribus. Vel, perspiciatis!
+          </p>
+          <h4 class="tour-country">
+            <i class="fa-solid fa-flag">thailand</i>
+
+            <span> from $1800</span>
+          </h4>
+        </div>
+        <div class="tour-3">
+          <img src="./images/tour-3.jpeg" class="img-about img-tours" alt="" />
+          <h4 class="tour-location">
+            singapore <span class="tour-days"> 3 days</span>
+          </h4>
+          <p>
+             ipsum dolor sit amet consectetur adipisicing et. Tempore,
+            praesentium? Error dolor facere iste. Perferendis itaque tempore
+            excepturi perspiciatis voluptatum, odio provifuga. Assumenda
+            atque ut ab veniam at dicta. Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Ab dolore ut minima fugiat nemo ipsum dolor ea
+            doloribus. Vel, perspiciatis!
+          </p>
+          <h4 class="tour-country">
+            <i class="fa-solid fa-flag">singapore</i>
+
+            <span> from $2000</span>
+          </h4>
+        </div>
+        <div class="tour-4">
+          <img src="./images/tour-4.jpeg" class="img-about img-tours" alt="" />
+          <h4 class="tour-location">
+            malasiya <span class="tour-days"> 3 days</span>
+          </h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore,
+            praesentium? Error dolor facere iste. Perferendis itaque tempore
+            excepturi perspiciatis voluptatum, odio provident fuga. Assumenda
+            atque ut ab veniam at dicta. Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Ab dolore ut minima fugiat nemo ipsum dolor ea
+            doloribus. Vel, perspiciatis!
+          </p>
+          <h4 class="tour-country">
+            <i class="fa-solid fa-flag">china</i>
+
+            <span> from $1600</span>
+          </h4>
+        </div>
+        <div class="tour-5">
+          <img src="./images/tour-5.jpeg" class="img-about img-tours" alt="" />
+          <h4 class="tour-location">
+            africa <span class="tour-days"> 8 days</span>
+          </h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore,
+            praesentium? Error dolor facere iste. Perferendis itaque tempore
+            excepturi perspiciatis voluptatum, odio provident fuga. Assumenda
+            atque ut ab veniam at dicta. Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Ab dolore ut minima fugiat nemo ipsum dolor ea
+            doloribus. Vel, perspiciatis!
+          </p>
+          <h4 class="tour-country">
+            <i class="fa-solid fa-flag">africa</i>
+
+            <span> from $2000</span>
+          </h4>
+        </div>
+      </div>
+      <div class="btn tour-btn">all tours</div>
+    </header>
     <!-- end of featured tours -->
 
     <!-- contact -->
+    <header class="contact">
+      <h3>want latest tour info and updates?</h3>
+      <br />
+      <p>sign up for newsletter and stay up to date</p>
+      <br />
+      <input type="text" class="email" name="email" placeholder="your email" />
+      <button class="btn">submit</button>
+    </header>
 
     <!-- end of contact -->
 
     <!-- gallery  -->
+    <header class="galary" id="galary">
+      <div class="image-galary">
+        <img src="./images/tour-1.jpeg" class="bcg-img" alt="" />
+        
+        <div class="bcg">
+        <a href="index.html"> <i class="fas fa-search mglass"></i> </a></div>
+      </div>
+      
+
+      <!-- <a href="index.html">
+        <div class="image-galary">
+          <img src="./images/tour-1.jpeg" class="bcg-img" alt="" />
+          <div class="bcg">
+            <i class="fas fa-search mglass"></i>
+          </div>
+        </div>
+      </a> -->
+      <a href="index.html">
+        <div class="image-galary">
+          <img src="./images/tour-2.jpeg" class="bcg-img" alt="" />
+          <div class="bcg">
+            <i class="fas fa-search mglass"></i>
+          </div>
+        </div>
+      </a>
+      <a href="index.html">
+        <div class="image-galary">
+          <img src="./images/tour-3.jpeg" class="bcg-img" alt="" />
+          <div class="bcg">
+            <i class="fas fa-search mglass"></i>
+          </div>
+        </div>
+      </a>
+      <a href="index.html">
+        <div class="image-galary">
+          <img src="./images/tour-4.jpeg" class="bcg-img" alt="" />
+          <div class="bcg">
+            <i class="fas fa-search mglass"></i>
+          </div>
+        </div>
+      </a>
+      <a href="index.html">
+        <div class="image-galary">
+          <img src="./images/tour-5.jpeg" class="bcg-img" alt="" />
+          <div class="bcg">
+            <i class="fas fa-search mglass"></i>
+          </div>
+        </div>
+      </a>
+      <a href="index.html">
+        <div class="image-galary">
+          <img src="./images/tour-2.jpeg" class="bcg-img" alt="" />
+          <div class="bcg"><i class="fas fa-search mglass"></i></div>
+        </div>
+      </a>
+      <a href="index.html">
+        <div class="image-galary">
+          <img src="./images/tour-6.jpeg" class="bcg-img" alt="" />
+          <div class="bcg">
+            <i class="fas fa-search mglass"></i>
+          </div>
+        </div>
+      </a>
+      <a href="index.html">
+        <div class="image-galary">
+          <img src="./images/tour-1.jpeg" class="bcg-img" alt="" />
+          <div class="bcg"><i class="fas fa-search mglass"></i></div>
+        </div>
+      </a>
+    </header>
 
     <!-- end of gallery  -->
 
     <!-- footer -->
+    <footer class="footer">
+      <ul class="footer-links">
+        <li>
+          <a href="#home" class="links"> <h4>home</h4></a>
+        </li>
+        <li>
+          <a href="#about" class="links"> <h4>about</h4></a>
+        </li>
+        <li>
+          <a href="#services" class="links"> <h4>services</h4></a>
+        </li>
+        <li>
+          <a href="#featured" class="links"> <h4>featured</h4></a>
+        </li>
+        <li>
+          <a href="#galary" class="links"> <h4>galary</h4></a>
+        </li>
+      </ul>
+
+      <ul class="footer-icon-links">
+        <li>
+          <a href="https://www.facebook.com/" class="links" target="blank"
+            ><h4><i class="fab fa-facebook-square"></i></h4
+          ></a>
+        </li>
+        <li>
+          <a
+            href="https://twitter.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJsYW5nIjoiZW4ifQ%3D%3D%22%7D"
+            class="links"
+            target="blank"
+            ><h4><i class="fab fa-twitter"></i></h4
+          ></a>
+        </li>
+        <li>
+          <a
+            href="https://www.instagram.com/accounts/login/"
+            class="links"
+            target="blank"
+            ><h4><i class="fab fa-instagram-square"></i></h4
+          ></a>
+        </li>
+      </ul>
+
+      <h4>
+        copyright &copy Backroads traveltours company 2021. all rights reserved
+      </h4>
+    </footer>
 
     <!-- js -->
-    <script src="./js/app.js"></script>
+    <script src="js/app.js"></script>
   </body>
 </html>
